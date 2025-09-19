@@ -1,0 +1,22 @@
+{
+  "name": "system-compliance",
+  "version": "1.0.0",
+  "description": "A tool to display system compliance status for Windows OS, BIOS, GPU, and NPU drivers.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "agent": "node src/agent.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryzenate/system-compliance.git"
+  },
+  "author": "RyzeNate",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "systeminformation": "^5.21.7",
+    "cors": "^2.8.5",
+    "semver": "^7.5.4"
+  }
+}
